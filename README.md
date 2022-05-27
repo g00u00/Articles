@@ -19,6 +19,15 @@ git pull origin main
 
 cd Articles
 
+su
+
+root
+
+apt install python3.8-venv
+
+exit
+
+
 python3 -m venv env
 
 . env/bin/activate
